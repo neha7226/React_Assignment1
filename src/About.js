@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import minionAbout from './images/minionAbout.png';
 
 function About(){
     return(
         <div className="about">
-            <div className="rightA"><a href="https://www.minionsmovie.com/" target="_blank"><img src="minionAbout.png" alt="Minion" className="homeImg"></img></a></div>
+            <div className="rightA"><a href="https://www.minionsmovie.com/" target="_blank"><img src={minionAbout} alt="Minion" className="homeImg"></img></a></div>
             <div className="leftA" >< h2 className="headingText">About</h2>
             < p className="para">
             Minions (/ˈmɪnjənz/) are fictional yellow creatures that appear in the Despicable Me franchise, which started with Despicable Me (2010). They are characterized by their childlike behavior and unique language, which is almost intelligible at times.

@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import Details from './Details';
+import minionContact from './images/minionContact.png';
 
 function Contact(){
     return(
         <div className="contact">
-            <div className="left"><a href="https://www.facebook.com/minions/" target="_blank"><img src="minionContact.png" alt="Minion" className="homeImg"></img></a></div>
+            <div className="left"><a href="https://www.facebook.com/minions/" target="_blank"><img src={minionContact} alt="Minion" className="homeImg"></img></a></div>
             <div className="right"><h1 className="headingText">Contact</h1>
             <Details name="Neha A" id='20181CCE0061' section="6CCE2"/>
             <h3>Email : <a className="email" href="mailto:201810102117@presidencyuniversity.in">neha@presidencyuniversity</a></h3>

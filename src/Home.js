@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import MinionNames from './MinionNames';
+import minionHome from './images/minionHome.png';
+
 
 function Home(){
     return(
         <div className="home">
-            <div className="left"><a href="https://www.youtube.com/watch?v=PjfP2tmjtQM" target="_blank"><img src="minionHome.png" alt="Minion" className="homeImg"></img></a></div>
+            <div className="left"><a href="https://www.youtube.com/watch?v=PjfP2tmjtQM" target="_blank"><img src={minionHome} alt="Minion" className="homeImg"></img></a></div>
             <div className="right"><h1 className="headingText">Home</h1>
             <p className="para">
             Minions Kevin, Stuart and Bob decide to find a new master. They embark on a global trip and meet Scarlett Overkill, a female super-villain who recruits them and hatches a plan to take over the world.
