@@ -1,38 +1,175 @@
-.App {
+body{
+  background-color:#0B2429;
+}
+
+.nav
+{
+  width:100%;
+  background-color: #1A4341;
+  border:1px solid #998235;
+  height: 6.7em;
+}
+
+.menu{
+  list-style-type: none;
+  color:#1A4341;
+  display: inline-block;
+  font-size: 1.5em;
+  width:15%;
+  height: 3em;
+  background-color: #998235;
+  text-align: center;
+  padding-top: 1.3em;
+  border: 2px solid #F3AC3C;
+  border-radius: 1em;
+  
+
+}
+
+.link{
+  text-decoration: none;
+  
+}
+
+.menu:hover{
+  color:#1A4341;
+  background-color: #F3AC3C;
+}
+.ul{
+  margin-top: 0;
+  padding-left: 0;
+  margin-left: 33%;
+  
+}
+
+.left{
+  display: inline-block;
+  float:left;
+  margin-left: 13%;
+
+}
+
+.right{
+  display: inline-block;
+  float: right;
+  margin-right: 13%;
+  width:40%;
+  height: 40%;
+  margin-top: 0.5%; 
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.para{
+  color: #2c6966;
+  font-size: 1em;
+  font-weight: bolder;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.leftA{
+  display: inline-block;
+  float: left;
+  width:40%;
+  height: 40%;
+  margin-top: 0.5%; 
+  text-align: center;
+  margin-left: 11%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rightA{
+  display: inline-block;
+  margin-right: 11%;
+  float:right;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.email{
+  color: #2c6966;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headingText{
+  text-transform: uppercase;
+  text-decoration: underline;
 }
+.more{
+color:#F3AC3C;
+text-decoration: none;
+}
+
+i {
+  display: inline-block;
+  margin-right: 0.2em;
+}
+
+@media (max-width:800px)
+{
+ .nav{
+   width:100%;
+   height:5em;
+ 
+ }
+
+ .menu{
+   display: inline-block;
+   width:4.1em;
+   height:2em;
+   margin-left: 0;
+    padding-top: 1em;
+  font-size: 1.2em;
+  padding-bottom: 1em;
+  margin-left: 0.8em;
+
+ }
+
+ .ul{
+   margin:0;
+   padding:0;
+ }
+  
+ .right{
+   margin:auto;
+   display: block;
+   width: 100%;
+   height: 100%;
+  float:center;
+  text-align:center;
+  left: 0;
+  right:0;
+ }
+
+ .left{
+   margin:auto;
+   display: block;
+   max-width: 100%;
+   max-height: 100%;
+ }
+
+ .rightA{
+  margin:auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.leftA{
+
+  margin:auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+ float:center;
+ text-align:center;
+ left: 0;
+ right:0;
+  
+}
+
+ img{
+   max-width: 100%;
+ }
+
+ .para{
+   padding: 1em;
+ }
+
+}
+
