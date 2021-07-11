@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/React_Assignment1/static/css/main.e128c0e6.chunk.css",
+    "main.js": "/React_Assignment1/static/js/main.f1ab1f13.chunk.js",
+    "main.js.map": "/React_Assignment1/static/js/main.f1ab1f13.chunk.js.map",
+    "runtime-main.js": "/React_Assignment1/static/js/runtime-main.05c58f02.js",
+    "runtime-main.js.map": "/React_Assignment1/static/js/runtime-main.05c58f02.js.map",
+    "static/js/2.86d1fd15.chunk.js": "/React_Assignment1/static/js/2.86d1fd15.chunk.js",
+    "static/js/2.86d1fd15.chunk.js.map": "/React_Assignment1/static/js/2.86d1fd15.chunk.js.map",
+    "static/js/3.682a7616.chunk.js": "/React_Assignment1/static/js/3.682a7616.chunk.js",
+    "static/js/3.682a7616.chunk.js.map": "/React_Assignment1/static/js/3.682a7616.chunk.js.map",
+    "index.html": "/React_Assignment1/index.html",
+    "static/css/main.e128c0e6.chunk.css.map": "/React_Assignment1/static/css/main.e128c0e6.chunk.css.map",
+    "static/js/2.86d1fd15.chunk.js.LICENSE.txt": "/React_Assignment1/static/js/2.86d1fd15.chunk.js.LICENSE.txt",
+    "static/media/minionAbout.4569b132.png": "/React_Assignment1/static/media/minionAbout.4569b132.png",
+    "static/media/minionContact.29e765d1.png": "/React_Assignment1/static/media/minionContact.29e765d1.png",
+    "static/media/minionHome.3cf72b80.png": "/React_Assignment1/static/media/minionHome.3cf72b80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05c58f02.js",
+    "static/js/2.86d1fd15.chunk.js",
+    "static/css/main.e128c0e6.chunk.css",
+    "static/js/main.f1ab1f13.chunk.js"
+  ]
+}
